@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp">
+    <View
+        android:layout_width="45dp"
+        android:layout_height="2dp"
+        android:background="#D1D1D1"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="탐색기"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="송장번호를 작성해주세요"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/insertPostNUM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:elevation="20dp"
+        android:hint="ex)12자리수의 숫자"
+        android:inputType="text|textNoSuggestions"
+        android:maxLength="20"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.widget.Button
+            android:id="@+id/taskBtn1"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/krpost_logo"
+            android:scaleType="centerCrop"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <android.widget.Button
+            android:id="@+id/taskBtn2"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/cj_logo"
+            android:scaleType="centerCrop"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <android.widget.Button
+            android:id="@+id/taskBtn3"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/hanjin_logo"
+            android:scaleType="centerCrop"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.widget.Button
+            android:id="@+id/taskBtn4"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/cupost_logo"
+            android:scaleType="centerCrop"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <android.widget.Button
+            android:id="@+id/taskBtn5"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/gs25_logo"
+            android:scaleType="centerCrop"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <android.widget.Button
+            android:id="@+id/taskBtn6"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/logen_logo"
+            android:scaleType="centerCrop"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+    <android.widget.Button
+        android:id="@+id/button_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/bottomsheet_btn"
+        android:elevation="20dp"
+        android:text="확인"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>
