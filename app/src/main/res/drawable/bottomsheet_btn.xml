@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 버튼이 눌렸을 때 -->
+    <item android:state_pressed="true">
+        <layer-list>
+            <!-- Bottom 15dp Shadow -->
+            <item>
+                <shape android:shape="rectangle">
+                    <!-- Button Shadow Color when pressed -->
+                    <solid android:color="#52772C" />
+                    <corners android:radius="7dp" />
+                </shape>
+            </item>
+            <!-- White Top color when pressed -->
+            <item android:bottom="15px">
+                <shape android:shape="rectangle">
+                    <padding android:bottom="10dp"
+                        android:top="10dp"
+                        android:left="20dp"
+                        android:right="20dp"/>
+                    <!-- Button TOP Color when pressed -->
+                    <solid android:color="#52772C" />
+                    <corners android:radius="7dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <!-- 기본 상태 (버튼이 눌리지 않았을 때) -->
+    <item>
+        <layer-list>
+            <!-- Bottom 15dp Shadow -->
+            <item>
+                <shape android:shape="rectangle">
+                    <!-- Button Shadow Color in normal state -->
+                    <solid android:color="#52772C" />
+                    <corners android:radius="7dp" />
+                </shape>
+            </item>
+            <!-- White Top color in normal state -->
+            <item android:bottom="15px">
+                <shape android:shape="rectangle">
+                    <padding android:bottom="10dp"
+                        android:top="10dp"
+                        android:left="20dp"
+                        android:right="20dp"/>
+                    <!-- Button TOP Color in normal state -->
+                    <solid android:color="#7CB342" />
+                    <corners android:radius="7dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

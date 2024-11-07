@@ -1,0 +1,83 @@
+<resources>
+    <!-- 기본 색상 -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- 빨간색 계열 -->
+    <color name="red">#FFFF0000</color>
+    <color name="dark_red">#FF8B0000</color>
+
+    <!-- 녹색 계열 -->
+    <color name="green">#FF00FF00</color>
+    <color name="dark_green">#FF006400</color>
+    <color name="light_green">#FF8BC34A</color>
+    <color name="dark_light_green">#FF00FF00</color>
+
+    <!-- 파란색 계열 -->
+    <color name="blue">#FF0000FF</color>
+    <color name="dark_blue">#FF00008B</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+
+    <!-- 노란색 계열 -->
+    <color name="yellow">#FFFFFF00</color>
+    <color name="light_yellow">#FFFFFFA5</color>
+
+    <!-- 주황색 계열 -->
+    <color name="orange">#FFFF9130</color>
+    <color name="dark_orange">#FFFF5722</color>
+    <color name="deep_orange">#FFFF5722</color>
+
+    <!-- 분홍색 계열 -->
+    <color name="pink">#FFFFC0CB</color>
+    <color name="light_pink">#FFFFB6C1</color>
+    <color name="dark_pink">#FFC71585</color>
+
+    <!-- 보라색 계열 -->
+    <color name="purple">#FF800080</color>
+    <color name="deep_purple">#FF673AB7</color>
+    <color name="light_deep_purple">#FFE066FF</color>
+
+    <!-- 갈색 계열 -->
+    <color name="brown">#FFA52A2A</color>
+
+    <!-- 회색 계열 -->
+    <color name="gray">#FF808080</color>
+    <color name="dark_gray">#FF202020</color>
+    <color name="light_gray">#FFD3D3D3</color>
+
+    <!-- 청록색 계열 -->
+    <color name="cyan">#FF00FFFF</color>
+    <color name="dark_cyan">#FF008B8B</color>
+    <color name="light_cyan">#FFE0FFFF</color>
+
+    <!-- 라임색 계열 -->
+    <color name="lime">#FF00FF00</color>
+    <color name="dark_lime">#FF32CD32</color>
+
+    <!-- 청록색 계열 -->
+    <color name="teal">#FF008080</color>
+    <color name="light_teal">#FF20B2AA</color>
+
+    <!-- 남색 계열 -->
+    <color name="indigo">#FF4B0082</color>
+    <color name="dark_indigo">#FF4B0082</color>
+
+    <!-- 황색 계열 -->
+    <color name="amber">#FFFFC107</color>
+    <color name="light_amber">#FFFFE57F</color>
+
+    <!-- 하얀색 계열 10단계 -->
+    <color name="white_10">#FFF5F5F5</color>
+    <color name="white_20">#FFE6E6E6</color>
+    <color name="white_30">#FFD8D8D8</color>
+    <color name="white_40">#FFCCCCCC</color>
+    <color name="white_50">#FFBFBFBF</color>
+    <color name="white_60">#FFB3B3B3</color>
+    <color name="white_70">#FFA6A6A6</color>
+    <color name="white_80">#FF999999</color>
+    <color name="white_90">#FF8C8C8C</color>
+    <color name="white_100">#FF808080</color>
+</resources>
