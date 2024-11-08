@@ -17,6 +17,8 @@ class PeriodicLogPrinterService : JobIntentService() {
             counter++
             Log.d("oiia3", "안녕$counter")
 
+            Log.d("oiia3", " 테스트라인 ")
+
             // 다음 작업 예약
             handler.postDelayed(this, TimeUnit.MINUTES.toMillis(1))
         }
